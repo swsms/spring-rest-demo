@@ -14,7 +14,7 @@ URLs
 - http://localhost:8080/history - show all remembered entry
 
 History example:
-
+```json
 [
 	{
 		"id": 2,
@@ -29,4 +29,4 @@ History example:
 		"data": "secret-message"
 	}
 ]
-
+```
