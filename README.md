@@ -1,5 +1,6 @@
 # spring-rest-demo
-A Spring Boot demo project with REST, JPA and embedded h2 database.
+A simple **Spring Boot** project with REST, JPA and embedded h2 database.
+
 Based on:
 - https://spring.io/guides/gs/rest-service/
 - https://spring.io/guides/gs/accessing-data-jpa/
