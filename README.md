@@ -1,8 +1,11 @@
 # spring-rest-demo
 A Spring Boot demo project with REST, JPA and embedded h2 database.
+Based on:
+- https://spring.io/guides/gs/rest-service/
+- https://spring.io/guides/gs/accessing-data-jpa/
 
 To run the project:
-1) **git clone https://github.com/swsms/spring-rest-demo.git**
+1) **git clone** https://github.com/swsms/spring-rest-demo.git
 2) in the cloned project directory execute **mvn clean install**
 3) and then **java -jar target/*.jar**
 
