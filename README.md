@@ -11,7 +11,8 @@ To run the project:
 3) and then **java -jar target/*.jar**
 
 It starts on 8080 port. 
-After next run the database will be always empty (of course, it's not a bug, it's a feature!).
+
+After next running the database will be always empty (of course, it's not a bug, it's a feature!).
 
 URLs
 - http://localhost:8080/remember/{value} - remember new entry (request date, value, user agent)
