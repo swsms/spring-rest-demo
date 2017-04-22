@@ -6,6 +6,27 @@ To run the project:
 2) mvn clean install (in the cloned project directory)
 3) java -jar target/*.jar
 
+It starts on 8080 port. 
+After next run the database will be always empty (of course, it's not a bug, it's a feature!).
+
 URLs
-- http://localhost:8080/remember/{value} - remember value and user agent from the request
+- http://localhost:8080/remember/{value} - remember new entry (request date, value, user agent)
 - http://localhost:8080/history - show all remembered entry
+
+History example:
+
+[
+	{
+		"id": 2,
+		"requested": 1492876252305,
+		"agent": "insomnia/5.0.10",
+		"data": "hello-rest"
+	},
+	{
+		"id": 1,
+		"requested": 1492876231893,
+		"agent": "curl/7.35.0",
+		"data": "secret-message"
+	}
+]
+
