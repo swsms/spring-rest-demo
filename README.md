@@ -2,9 +2,9 @@
 A Spring Boot demo project with REST, JPA and embedded h2 database.
 
 To run the project:
-1) git clone https://github.com/swsms/spring-rest-demo.git
-2) mvn clean install (in the cloned project directory)
-3) java -jar target/*.jar
+1) **git clone https://github.com/swsms/spring-rest-demo.git**
+2) in the cloned project directory execute **mvn clean install**
+3) and then **java -jar target/*.jar**
 
 It starts on 8080 port. 
 After next run the database will be always empty (of course, it's not a bug, it's a feature!).
