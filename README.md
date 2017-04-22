@@ -7,5 +7,5 @@ To run the project:
 3) java -jar target/*.jar
 
 URLs
-http://localhost:8080/remember/{value} - remember value and user agent from the request
-http://localhost:8080/history - show all remembered entry
+- http://localhost:8080/remember/{value} - remember value and user agent from the request
+- http://localhost:8080/history - show all remembered entry
