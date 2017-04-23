@@ -1,16 +1,12 @@
 # spring-rest-demo
 A simple **Spring Boot** project with REST, JPA and embedded h2 database.
 
-Based on:
-- https://spring.io/guides/gs/rest-service/
-- https://spring.io/guides/gs/accessing-data-jpa/
-
 To run the project:
 1) **git clone** https://github.com/swsms/spring-rest-demo.git
 2) in the cloned project directory execute **mvn clean install**
 3) and then **java -jar target/*.jar**
 
-It starts on 8080 port. 
+It starts on 8000 port.
 
 After next running the database will be always empty (of course, it's not a bug, it's a feature!).
 
@@ -35,3 +31,8 @@ History example:
 	}
 ]
 ```
+
+Useful references:
+- https://spring.io/guides/gs/rest-service/
+- https://spring.io/guides/gs/accessing-data-jpa/
+- https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html

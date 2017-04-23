@@ -60,6 +60,4 @@ hs_err_pid*
 
 .gitignore
 .idea/
-spring-rest-demo.iml
-src/main/resources/
-src/test/
+*.iml
